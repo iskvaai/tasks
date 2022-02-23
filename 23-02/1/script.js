@@ -12,7 +12,7 @@ alert(userSalaries["Ella"] + ',' + userSalaries["Sophia"])
 /*alert(userSalaries["Ella"]);
 alert(userSalaries["Sophia"]);*/
 
-
+// может быть и по другому , но всё там получилось /~\
 
 
 /*2) Создайте объект с ключами a, b и c значениями 5 , 6 и 10.
