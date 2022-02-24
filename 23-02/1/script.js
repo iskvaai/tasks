@@ -39,8 +39,8 @@ if(data === true){
 //let result = условие ? значение1 : значение2; (ДЛЯ СЕБЯ)
 
 
-// let number;
-let number = "data === true" ? 3: 5;
+let data = true;
+let number = data === true ? 3: 5;
 console.log(number);
 
 /************* 4 ***************/
@@ -51,7 +51,7 @@ console.log(number);
 
 let response = prompt('«Кто такой В.В.ПУТИН?»', '');
 
-if ( response === 'Президент') {
+if ( response == 'Президент') {
     alert( 'Верно!' );
 } else  {
     alert("Не знаете? ");
