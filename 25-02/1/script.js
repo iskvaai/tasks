@@ -5,7 +5,7 @@ for (let i = 0; i < number.length; i++) {
     if (number[i] > 0 && number[i] < 10) {
         console.log(number[i]);
     }
-}
+};
 
 
     /*2) У нас есть массив с элементами 1, 2, 5, 6, 88, 5.
@@ -24,11 +24,10 @@ for (let i = 0; i < number.length; i++) {
     for (let i = 0; i < arr.length; i++) {
         let result = arr[i] * arr[i];
         newarr.push(result);
-        console.log(result)
-
+        console.log(result);
     }
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
         sum += newarr[i];
     }
-    console.log(sum)
+    console.log(sum);
