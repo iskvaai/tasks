@@ -31,3 +31,6 @@ for (let i = 0; i < number.length; i++) {
         sum += newarr[i];
     }
     console.log(sum);
+
+
+
