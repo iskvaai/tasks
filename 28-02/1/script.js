@@ -37,10 +37,16 @@ getName();
     example([1, 2, 3]) => [2, 4, 6]
 example([4, 1, 1, 1, 4]) => [8, 2, 2, 2, 8]
 example([2, 2, 2, 2, 2, 2]) => [4, 4, 4, 4, 4, 4]*/
-/*
-function calc(array) {
-    for (i = 0; i < array.length; i++);
-    return  result = array[i] * array[i];
+
+let arr1 = [];
+function calc(arr) {
+    for (let i = 0; i < arr.length; i++){
+       arr1.push(arr[i] + arr[i]);
+    }
+    return arr1;
 }
-calc([1, 2, 3] )
-console.log(result);*/
+
+console.log(calc([1, 2, 3] ));
+console.log(calc([4, 1, 1, 1, 4]));
+console.log(calc([2, 2, 2, 2, 2, 2]));
+
