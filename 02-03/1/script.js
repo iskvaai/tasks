@@ -36,28 +36,26 @@ console.log(object.result);
 элемент (значение для массива), вторым параметром размер массива.
     Например: myFunc('a', 3)   // ['a', 'a', 'a']*/
 
-function myFunc( n1, value ) {
+/*function myFunc( n1, value ) {
     let arr = [];
-    for(n1; n1 > 0; n1--) {
+    for(n1 ; n1 > 0; n1--) {
         arr.push(value);
     }
     return arr;
 }
-console.log(myFunc(3, 'a'));
+console.log(myFunc(3, 'a'));*/
 
 //с помощью FILL
 // метод fill() изменяет существующий массив, а не возвращает новый.
 //Метод fill нужен для заполнения массивов одинаковыми значениями
-/*
-function fill(s, size) {
+function fill(n1, size) {
     const arr1 = [];
     for (let i = 0; i < size; i++) {
-        arr1[i] = s;
+        arr1[i] = n1;
     }
     return arr1;
 }
 console.log(fill('a', 3))
-*/
 
 /*
 3) Напишите функцию, которая разворачивает массив в обратном порядке
