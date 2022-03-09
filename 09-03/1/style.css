@@ -1,0 +1,30 @@
+.btn{
+    border: none;
+    background-color: darkcyan;
+    /*background-color: #D3E1FC;*/
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.notification {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    top: -45px;
+    color: #084298;
+    background-color: #cfe2ff;
+    display: none;
+}
+
+.d-block{
+    display: block!important;
+}
