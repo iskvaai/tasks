@@ -1,0 +1,32 @@
+body{
+    background: mistyrose;
+    height: 100%;
+
+
+}
+.container{
+    width: 800px;
+    margin: 30px auto;
+    color: black;
+    text-align: center;
+}
+
+#seconds,
+#counter{
+    font-size: 2rem;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+button:hover{
+    cursor: pointer;
+    text-transform: capitalize;
+}
+p{
+    font-size: 30px;
+}
