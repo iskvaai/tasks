@@ -1,0 +1,118 @@
+
+body{
+    background-color: black;
+    width: 1440px;
+    height: 1024px;
+
+}
+.container{
+    background-color: white;
+    border-radius: 8px;
+    border: 0 solid white;
+    width: 664px;
+    height: 576px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 400px;
+    padding: 40px 24px 0 24px;
+}
+h1{
+    height: 24px;
+    width: 478px;
+    border-radius: 0;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    margin-left: -4px;
+}
+.text{
+    height: 16px;
+    width: 332px;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+
+}
+.block1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.block1_item{
+    width: 200px;
+    height: 48px;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    opacity: 0.5;
+    padding-left: 16px;
+}
+.text1{
+    height: 16px;
+    width: 256px;
+    border-radius: 0.5;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+.block2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.block_list{
+    height: 48px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0.5;
+    padding-left: 16px;
+}
+.block_list1{
+    width: 200px;
+
+}
+.block_list2{
+    width: 408px;
+}
+.block_list3 .block_list4{
+    width: 200px;
+}
+.block_list5 .block_list6{
+    width: 200px;
+}
+.block_list7{
+    width: 200px;
+}
+.block_list8{
+    width: 200px;
+   /* height: 48px;*/
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.block_list9{
+    width: 408px;
+}
+button{
+    width: 384px;
+    height: 48px;
+    background-color: rgba(35, 37, 41, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin: 30px 140px;
+    border: 0;
+    border-radius: 4px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+
+}
